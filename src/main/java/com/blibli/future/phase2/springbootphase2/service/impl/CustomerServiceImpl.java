@@ -17,7 +17,7 @@ import java.util.UUID;
 @Transactional
 public class CustomerServiceImpl implements CustomerService {
 
-    private static final int PAGE_SIZE = 5;
+    private static final int PAGE_SIZE = 3;
 
     @Autowired
     private CustomerRepository customerRepository;
